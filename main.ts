@@ -1,3 +1,3 @@
 basic.forever(function () {
-    basic.showIcon(IconNames.House)
+    basic.showIcon(IconNames.Heart)
 })
