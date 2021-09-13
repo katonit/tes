@@ -1,8 +1,7 @@
-basic.forever(function on_forever() {
-if (
-input.buttonIsPressed(Button.A)
-basic.showIcon(IconNames.EigthNote)
-} else {
-basic.clearScreen()
-}
+basic.forever(function () {
+    if (input.buttonIsPressed(Button.B)) {
+        basic.showIcon(IconNames.EigthNote)
+    } else {
+        basic.clearScreen()
+    }
 })
